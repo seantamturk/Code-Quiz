@@ -18,29 +18,31 @@ const q3 = "Arrays in Javascript can be used to store ____";
 
 const q4 = "String values must be enclosed within ____ when being assigned to variables.";
 
-const q5 = "A very useful tool used during development and debugging for printing content to the debugger is:"
+const q5 = "A very useful tool used during development and debugging for printing content to the debugger is:";
 
 
 // Answers array
-const a1 = ["Strings", "booleans", "alerts", "numbers"]
+const a1 = ["Strings", "booleans", "alerts", "numbers"];
 
-const a2 = ["quotes", "curly brackets", "parenthesis", "square brackets"]
+const a2 = ["quotes", "curly brackets", "parenthesis", "square brackets"];
 
-const a3 = ["numbers and strings", "other arrays", "beeloeans", "all of the above"]
+const a3 = ["numbers and strings", "other arrays", "beeloeans", "all of the above"];
 
-const a4 = ["commas", "curly brackets", "quotes", "parenthesis"]
+const a4 = ["commas", "curly brackets", "quotes", "parenthesis"];
 
-const a5 = ["javascript", "terminal/bash", "for loops", "console.log"]
+const a5 = ["javascript", "terminal/bash", "for loops", "console.log"];
 
 // start quiz put q1 in view
 const startBtn = document.getElementById("startButton");
+console.log("startBtn: ", startBtn);
 let questionTitle = document.getElementById("questionTitle");
 
 function showQuestion() {
-  questionTitle.textContent = q1;
+    console.log("test");
+    questionTitle.textContent = q1;
   console.log("test");
 }
 
-startBtn.addEventListener("click", showQuestion);
+startBtn.addEventListener('click', showQuestion);
 
 // I got completely stuck at this point. I cant get the button to display the first question when clicked.
