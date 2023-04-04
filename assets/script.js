@@ -42,3 +42,5 @@ function showQuestion() {
 }
 
 startBtn.addEventListener("click", showQuestion);
+
+// I got completely stuck at this point. I cant get the button to display the first question when clicked.
